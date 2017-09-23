@@ -35,7 +35,7 @@ class MainMenuScene : SKScene{
         self.addChild(gameStartLabel)
         
         
-        let gameAbout = labelNode(fontName: "effra-medium", fontText: "Devinsomnia", fontSize: 40, fontColorBlendFactor: 1, fontColor: UIColor.rgb(red: 24, green: 132, blue: 91), fontXPoz: self.size.width / 2, fontYPoz: self.size.height * 0.10, fontZPoz: 1)
+        let gameAbout = labelNode(fontName: "effra-medium", fontText: "Yazılım Stajı için hazırlanan iOS(Swift) oyun projesidir.", fontSize: 40, fontColorBlendFactor: 1, fontColor: UIColor.rgb(red: 24, green: 132, blue: 91), fontXPoz: self.size.width / 2, fontYPoz: self.size.height * 0.10, fontZPoz: 1)
         self.addChild(gameAbout)
     
         
